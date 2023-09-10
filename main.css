@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: gray;
+}
+.todo-list {
+  margin: 2rem auto;
+  padding: 1.3rem;
+  max-width: 450px;
+  border: 1.5px solid white;
+  background-color: rgba(245, 245, 245, 0.925);
+}
+
+h1 {
+  margin-bottom: 0.9rem;
+}
+
+button {
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.219);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  padding: 0.3rem;
+  margin-left: 0.5rem;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.task input[type="text"] {
+  flex-grow: 1;
+  padding: 0.2rem;
+  margin-right: 0.3rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 0.15rem solid rgba(89, 85, 82, 1);
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+.task input[type="date"] {
+  padding: 0.13rem;
+}
+
+#new-task {
+  padding: 0.49rem;
+}
+
+#task-deadline {
+  padding: 0.4rem;
+}
+
+#addd {
+  padding: 0.59rem;
+}
